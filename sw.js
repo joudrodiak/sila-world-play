@@ -9,7 +9,7 @@ const precache = new Set(self.SILA_FILES.map(url))
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(cacheName).then((cache) =>
     cache.addAll([...precache].map((file) => new Request(file, { cache: 'reload' }))),
-  ))
+  ).then(() => self.skipWaiting()))
 })
 
 self.addEventListener('activate', (event) => {

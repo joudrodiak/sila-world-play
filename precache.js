@@ -1,2 +1,2 @@
-self.SILA_BUILD="42a030ef4910e018c5";
-self.SILA_FILES=["index.html","manifest.webmanifest","favicon.svg","touch-icon.png","assets/index-BlLCrlJx.css","assets/index-CERNVPhQ.js"];
+self.SILA_BUILD="9cadeaff508f7edd26";
+self.SILA_FILES=["index.html","manifest.webmanifest","favicon.svg","touch-icon.png","assets/index-C1PoLGRX.css","assets/index-Dv4iE2QM.js"];
